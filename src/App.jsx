@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./components/Navbar/Navbar.jsx";
 import Hero from "./components/Hero/Hero.jsx";
+import Carousel from "react-multi-carousel";
 import Category from "./components/Category/Category.jsx";
 import Category2 from "./components/Category/Category2.jsx";
 import Services from "./components/Services/Services.jsx";
@@ -48,20 +49,21 @@ const App = () => {
     setOrderPopup(!orderPopup);
   };
 
-  React.useEffect(() => {
-    AOS.init({
-      duration: 800,
-      easing: "ease-in-sine",
-      delay: 100,
-      offset: 100,
-    });
-    AOS.refresh();
-  }, []);
+  // React.useEffect(() => {
+  //   AOS.init({
+  //     duration: 800,
+  //     easing: "ease-in-sine",
+  //     delay: 100,
+  //     offset: 100,
+  //   });
+  //   AOS.refresh();
+  // }, []);
 
   return (
     <div className="bg-white dark:bg-gray-900 dark:text-white duration-200 overflow-hidden">
       <Navbar handleOrderPopup={handleOrderPopup} />
       <Hero handleOrderPopup={handleOrderPopup} />
+      {/* <Carousel /> */}
       <Category />
       <Category2 />
       <Services />

@@ -87,7 +87,7 @@ const Navbar = ({ handleOrderPopup }) => {
                   <div className="absolute z-[9999] hidden group-hover:block w-[200px] rounded-md bg-white shadow-md dark:bg-gray-900 p-2 dark:text-white ">
                     <ul className="space-y-2">
                       {DropdownLinks.map((data, index) => (
-                        <li>
+                        <li key={index}>
                           <a
                             className="text-gray-500  dark:hover:text-white duration-200 inline-block w-full p-2 hover:bg-primary/20 rounded-md font-semibold"
                             href={data.link}
@@ -107,13 +107,7 @@ const Navbar = ({ handleOrderPopup }) => {
           <div className="flex justify-between items-center gap-4">
             {/* Search Bar section */}
             <div className="relative group hidden sm:block">
-              <input
-                type="text"
-                placeholder="Search"
-                className="
-              search-bar
-              "
-              />
+              <input type="text" placeholder="Search" className="search-bar" />
               <IoMdSearch className="text-xl text-gray-600 group-hover:text-primary dark:text-gray-400 absolute top-1/2 -translate-y-1/2 right-3 duration-200" />
             </div>
 
