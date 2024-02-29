@@ -36,10 +36,10 @@ const Hero = ({ handleOrderPopup }) => {
     infinite: true,
     speed: 800,
     slidesToScroll: 1,
-    // autoplay: true,
+    autoplay: true,
     autoplaySpeed: 4000,
-    cssEase: "ease-in-out",
-    pauseOnHover: false,
+    cssEase: "ease-in",
+    pauseOnHover: true,
     pauseOnFocus: true,
   };
   return (

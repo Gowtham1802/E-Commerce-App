@@ -52,7 +52,7 @@ const App = () => {
   // React.useEffect(() => {
   //   AOS.init({
   //     duration: 800,
-  //     easing: "ease-in-sine",
+  //     easing: "ease-in",
   //     delay: 100,
   //     offset: 100,
   //   });
