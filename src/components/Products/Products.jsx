@@ -5,10 +5,10 @@ import ProductCard from "./ProductCard";
 // images import
 import Img1 from "../../../src/assets/images/product/p-1.jpg";
 import Img2 from "../../../src/assets/images/product/p-2.jpg";
-import Img3 from "../../../src/assets/images/product/p-3.jpg";
-import Img4 from "../../../src/assets/images/product/p-4.jpg";
+import Img3 from "../../../src/assets/images/product/lap1.png";
+import Img4 from "../../../src/assets/images/product/vr0.png";
 import Img5 from "../../../src/assets/images/product/p-5.jpg";
-import Img6 from "../../../src/assets/images/product/p-9.jpg";
+import Img6 from "../../../src/assets/images/product/vr1.png";
 import Img7 from "../../../src/assets/images/product/p-7.jpg";
 
 const ProductsData = [
