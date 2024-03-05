@@ -8,8 +8,9 @@ import Img2 from "../../../src/assets/images/product/p-2.jpg";
 import Img3 from "../../../src/assets/images/product/lap1.png";
 import Img4 from "../../../src/assets/images/product/vr0.png";
 import Img5 from "../../../src/assets/images/product/p-5.jpg";
-import Img6 from "../../../src/assets/images/product/vr1.png";
+import Img6 from "../../../src/assets/images/product/p-9.jpg";
 import Img7 from "../../../src/assets/images/product/p-7.jpg";
+import Img8 from "../../../src/assets/images/product/vr1.png";
 
 const ProductsData = [
   {
@@ -65,7 +66,7 @@ const ProductsData2 = [
   },
   {
     id: 4,
-    img: Img5,
+    img: Img8,
     title: "Printed ",
     price: "220",
     aosDelay: "600",

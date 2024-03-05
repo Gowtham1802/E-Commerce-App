@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./components/Navbar/Navbar.jsx";
+import Login from "./components/Login/Login.jsx";
 import Hero from "./components/Hero/Hero.jsx";
 import Carousel from "react-multi-carousel";
 import Category from "./components/Category/Category.jsx";
@@ -62,6 +63,7 @@ const App = () => {
   return (
     <div className="bg-white dark:bg-gray-900 dark:text-white duration-200 overflow-hidden">
       <Navbar handleOrderPopup={handleOrderPopup} />
+      {/* <Login /> */}
       <Hero handleOrderPopup={handleOrderPopup} />
       {/* <Carousel /> */}
       <Category />

@@ -1,6 +1,7 @@
 import React from "react";
 import { IoMdSearch } from "react-icons/io";
 import { FaCaretDown, FaCartShopping } from "react-icons/fa6";
+import { CgProfile } from "react-icons/cg";
 import DarkMode from "./DarkMode";
 
 const MenuLinks = [
@@ -118,6 +119,12 @@ const Navbar = ({ handleOrderPopup }) => {
                 4
               </div>
             </button>
+            <div className="flex gap-2 items-center">
+              <div className="cursor-pointer text-xl " to="/login">
+                Log In
+              </div>
+              <CgProfile className="text-[25px]" />
+            </div>
             {/* Dark Mode section */}
             <div>
               <DarkMode />
